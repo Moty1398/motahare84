@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تماس با ما | ArenaPlus</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/data.js" defer></script>
+<script src="js/layout.js" defer></script>
+<script src="js/contact.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">پرش به محتوای اصلی</a>
+<div id="site-header"></div>
+
+<div class="wrap">
+  <a class="back" href="index.html">بازگشت به خانه</a>
+  <main id="main" tabindex="-1" class="art">
+    <h1>تماس با ما</h1>
+    <p class="t">برای پیشنهاد، گزارش مشکل یا هر پرسش درباره پروژه ArenaPlus پیام بفرستید.</p>
+    <div class="card">
+      <h2>راه‌های ارتباطی</h2>
+      <dl class="info">
+        <dt>ایمیل</dt><dd><a href="mailto:smmmahdavi9@gmail.com" dir="ltr">smmmahdavi9@gmail.com</a></dd>
+        <dt>تلگرام</dt><dd><a href="https://t.me/Motahare46" target="_blank" rel="noopener" dir="ltr">@Motahare46</a></dd>
+      </dl>
+    </div>
+    <form class="card" id="cform" novalidate>
+      <h2>ارسال پیام</h2>
+      <label for="cname">نام شما</label>
+      <input id="cname" autocomplete="name">
+      <p></p>
+      <label for="cemail">ایمیل شما (برای ارسال پاسخ)</label>
+      <input id="cemail" type="email" dir="ltr" autocomplete="email">
+      <p></p>
+      <label for="cmsg">پیام</label>
+      <textarea id="cmsg" rows="4"></textarea>
+      <p class="meta" id="cstat" role="status" aria-live="polite">پیام شما مستقیم به ایمیل ما ارسال می‌شود.</p>
+      <button type="submit" id="csend" class="btn-main">ارسال پیام</button>
+    </form>
+  </main>
+</div>
+<div id="site-footer"></div>
+</body>
+</html>

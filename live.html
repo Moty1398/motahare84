@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>پخش زنده | ArenaPlus</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/data.js" defer></script>
+<script src="js/layout.js" defer></script>
+<script src="js/live.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">پرش به محتوای اصلی</a>
+<div id="site-header"></div>
+
+<div class="wrap">
+  <a class="back" href="index.html">بازگشت به خانه</a>
+  <main id="main" tabindex="-1">
+    <h1 style="margin:.2rem 0 .8rem;font-size:1.5rem">پخش زنده: ستاره جنوب و آذرگان</h1>
+    <div class="sb" role="group" aria-label="نتیجه بازی">
+      <div><div class="tn">ستاره جنوب</div><div class="sc" id="hs">۰</div></div>
+      <div><span class="badge" id="lstat">● زنده</span><div id="lmin">دقیقه ۰</div></div>
+      <div><div class="tn">آذرگان</div><div class="sc" id="as">۰</div></div>
+    </div>
+    <p class="sr" id="lannounce" role="status" aria-live="polite"></p>
+    <div class="ctl">
+      <button type="button" id="lpause" aria-pressed="false">توقف به‌روزرسانی</button>
+      <button type="button" id="lrestart">شروع دوباره بازی نمایشی</button>
+    </div>
+    <div class="l2">
+      <section class="card" aria-labelledby="tlh"><h2 id="tlh">رویدادهای بازی</h2><ul class="tl" id="tl"></ul></section>
+      <section class="card" aria-labelledby="sth"><h2 id="sth">آمار بازی</h2><ul class="stl" id="stl"></ul></section>
+    </div>
+    <p class="meta">این پخش زنده شبیه‌سازی‌شده است و نتیجه‌ها واقعی نیستند.</p>
+  </main>
+</div>
+<div id="site-footer"></div>
+</body>
+</html>

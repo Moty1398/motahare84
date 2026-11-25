@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArenaPlus | اخبار و نتایج زنده ورزشی</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700;900&display=swap">
+<link rel="stylesheet" href="css/themes.css">
+<link rel="stylesheet" href="css/style.css">
+<script src="js/data.js" defer></script>
+<script src="js/layout.js" defer></script>
+<script src="js/home.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">پرش به محتوای اصلی</a>
+<div id="site-header"></div>
+
+<div class="wrap">
+  <section aria-labelledby="st">
+    <h2 class="sec" id="st">نتایج امروز</h2>
+    <ul class="scores" id="scores" tabindex="0" aria-label="فهرست بازی‌های امروز"></ul>
+    <p class="meta">تمام نام‌ها، نتایج و خبرها در این پروژه نمایشی و ساختگی است.</p>
+  </section>
+
+  <div class="layout">
+    <main id="main" tabindex="-1">
+      <article class="hero" id="hero" aria-label="خبر ویژه"></article>
+      <h2 class="sec" id="nt">آخرین خبرها</h2>
+      <p class="meta" id="count" role="status" aria-live="polite"></p>
+      <ul class="news" id="news" aria-labelledby="nt"></ul>
+    </main>
+
+    <aside aria-label="جدول و پربازدیدها">
+      <section class="card" aria-labelledby="lt">
+        <h2 id="lt"></h2>
+        <table>
+          <caption class="sr">جدول رده‌بندی</caption>
+          <thead id="thead"></thead>
+          <tbody id="table"></tbody>
+        </table>
+      </section>
+      <section class="card" aria-labelledby="rt">
+        <h2 id="rt"></h2>
+        <ol class="read" id="read"></ol>
+      </section>
+    </aside>
+  </div>
+</div>
+<div id="site-footer"></div>
+</body>
+</html>
